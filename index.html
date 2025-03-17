@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Pomodoro Timer</h1>
-    <div id="timer">25:00</div>
-    <div class="buttons">
-        <button id="start">Start</button>
-        <button id="pause">Pause</button>
-        <button id="reset">Reset</button>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer">25:00</div>
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+        <audio id="alarm" src="alarm.mp3"></audio>
     </div>
-    <audio id="alarm" src="alarm.mp3"></audio>
     <script src="script.js"></script>
 </body>
 </html>
